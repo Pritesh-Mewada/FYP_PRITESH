@@ -44,6 +44,6 @@ for i in range(0,len(y_kmeans)):
 plt.plot(Finalwcss,"*");
 plt.show()    
 
-test = [[172,16,32,0]]
+test = [[2,232,233,104]]
 print(Distance(kmeans.predict(test),test[0]))
 
